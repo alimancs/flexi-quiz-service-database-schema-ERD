@@ -1,4 +1,4 @@
-##Quiz/Exam Service Database Schema & ERD
+# Quiz/Exam Service Database Schema & ERD
 
 📌 1. Entity List
 Entity	Purpose	Type
@@ -93,5 +93,5 @@ v_exam_leaderboard	Ranked results per exam	View (derived)
         boolean is_correct
         numeric marks_awarded
         timestamptz answered_at
-    }```
+    }
 
