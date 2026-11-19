@@ -94,4 +94,6 @@ v_exam_leaderboard	Ranked results per exam	View (derived)
         numeric marks_awarded
         timestamptz answered_at
     }
+```
+
 
