@@ -1,15 +1,15 @@
 # Quiz/Exam Service Database Schema & ERD
 
 📌 1. Entity List
-Entity	Purpose	Type
-users	Students, lecturers, admins	Strong entity
-topics	Subject areas for per-topic analytics	Strong entity
-exams	An assessment created by a lecturer	Strong entity
-questions	MCQ belonging to one exam	Weak (owned by exam)
-options	Answer choices for a question	Weak (owned by question)
-attempts	One student's sitting of one exam	Associative entity (resolves student ↔ exam)
-attempt_answers	One answer within an attempt	Associative entity (resolves attempt ↔ question)
-v_exam_leaderboard	Ranked results per exam	View (derived)
+| Entity | Purpose | Type |
+| users | Students, lecturers, admins |	Strong entity
+| topics | Subject areas for per-topic analytics | Strong entity
+| exams | An assessment created by a lecturer | Strong entity
+| questions | MCQ belonging to one exam | Weak (owned by exam)
+| options | Answer choices for a question | Weak (owned by question)
+| attempts | One student's sitting of one exam | Associative entity (resolves student ↔ exam)
+| attempt_answers | One answer within an attempt | Associative entity (resolves attempt ↔ question)
+| v_exam_leaderboard | Ranked results per exam	| View (derived)
 
 ```erDiagram
     USERS ||--o{ EXAMS : "creates"
