@@ -1,4 +1,4 @@
-# Week 23 Deliverable – Quiz/Exam Service Database Schema & ERD
+# Flexi Quiz Service Database Schema & ERD
 
 ## Domain
 Quiz/Exam Service (question bank, attempts, leaderboard, topic analytics).
